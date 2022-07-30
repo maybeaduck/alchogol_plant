@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "alcohol_plant:block/wild_grape_block"},
+    "facing=east": {"model": "alcohol_plant:block/wild_grape_block","y": 90},
+    "facing=south": {"model": "alcohol_plant:block/wild_grape_block","y": 180},
+    "facing=west": {"model": "alcohol_plant:block/wild_grape_block","y": 270}
+  }
+}

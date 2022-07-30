@@ -1,25 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "alcohol_plant",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Alcohol Plant",
+  "description": "NICE WINE!",
   "authors": [
-    "Me!"
+    "Mykola Maybeagoose Karakuts"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": ""
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/alcohol_plant/textures/grapes.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "com.maybeagoose.alcohol_plant.Startup"
+    ],
+    "client": [
+      "com.maybeagoose.alcohol_plant.AlcoholPlantMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "alcohol_plant.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
